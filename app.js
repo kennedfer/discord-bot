@@ -49,5 +49,4 @@ client.on('messageCreate', response=> {
     }
 });
 
-//make sure this line is the last line
 client.login(process.env.CLIENT_TOKEN);
